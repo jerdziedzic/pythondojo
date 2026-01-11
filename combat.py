@@ -45,6 +45,7 @@ time.sleep(3) # Pause for X seconds
 # Determine who goes first and display the result
 # TODO: better initiative system
 turn_order = random.randint(1,2)
+time.sleep(3) # Pause for X seconds
 
 if turn_order == 1:
     print(f"\n{player_name} gets the first strike!")
@@ -55,6 +56,7 @@ while True: # Infinite loop until one side loses
     
     # Player takes a swing, if hit, inflict damage and subtract from enemy HP.    
     if turn_order == 1:
+        input("\nPress Enter to attack...")
         print(f"\n{player_name} takes a swing!")
         to_hit = random.randint(1, 100)
         print(f"To hit roll: {to_hit}")
