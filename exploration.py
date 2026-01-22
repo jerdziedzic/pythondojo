@@ -20,12 +20,13 @@ loc_x_pos_max = 1
 loc_x_neg_max = -1
 loc_y_pos_max = 1
 loc_y_neg_max = -1
-# TODO: add up and down max coordinates
+loc_z_pos_max = 1
+loc_z_neg_max = -1
 
 # Set starting coordinates
 loc_x = 0
 loc_y = 0
-# TODO: add up/down coordinates
+loc_z = 0
 
 # Main exploration loop
 while True:
